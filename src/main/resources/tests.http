@@ -1,0 +1,14 @@
+GET http://localhost:8000/cards/list/?userId=1
+Accept: application/json
+
+###
+POST http://localhost:8000/cards/createCard/
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "cardNumber": "1234 1234 1234 1234",
+  "accountNumber": "12345678901234567890"
+}
+
+###
